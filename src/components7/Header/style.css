@@ -1,0 +1,9 @@
+.header{
+    margin-top: 80px;
+    text-align: center;
+    color: orange;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 2px 1px #000;
+}

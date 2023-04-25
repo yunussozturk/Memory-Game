@@ -1,0 +1,50 @@
+.home{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow:  0 0 6px 4px black;
+    margin: 60px 30% 0 30%;
+    height: 230px;
+    padding: 20px;
+    background-color: wheat;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.home > input{
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px grey;
+    background-color: white;
+}
+
+.home > input::placeholder{  
+    font-size: 18px;  
+}
+
+.home > button{
+    margin-top: 40px;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 24px;
+}
+
+.home > button:hover{
+    background-color: rgba(0, 128, 0, 0.521);
+    border: 1px solid rgba(0, 128, 0, 0.521);
+    cursor: pointer;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+}

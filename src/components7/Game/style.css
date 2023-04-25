@@ -1,0 +1,180 @@
+.game{
+    display: flex;
+    margin-top: 50px;
+}
+
+.player{
+    width: 300px;
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 2px 1px #000; 
+    background-color: rgb(231, 215, 215);
+}
+
+.userName{
+    border: 1px solid grey;
+    box-shadow: 0 0 3px 2px black;
+    background-color: wheat;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(61, 60, 60);
+    margin-top: 26px;
+    text-align: center;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.resetBtn{
+    margin-top: 25px;
+    text-align: center;
+ 
+}
+
+.resetBtn > button{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+   
+}
+
+.resetBtn > button:hover{
+    background-color: rgb(1, 58, 1);
+    cursor: pointer;
+}
+
+.back{
+    margin: 300px 0 0 0px;
+    text-align: center;
+}
+
+.back > button{
+    height: 45px;
+    width: 80px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.boxes{
+  width: 800px;
+  margin-top: 12px;
+  margin-right: 30px;
+  justify-content: center;
+  background-color: rgb(231, 215, 215);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  display: flex;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+.blackout{
+  filter: grayscale(100%);
+}
+
+.box > div{
+  background-color: white;
+  height: 135px;
+  width: 130px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;  
+  backface-visibility: hidden;
+}
+
+.front1{
+  position: absolute;
+}
+
+.front2{
+  transform: rotateY(180deg);
+  position: absolute;
+}
+
+.back1{ 
+  transform: rotateY(-180deg);
+
+}
+
+.back2{
+  transform: rotateY(0deg);
+  
+}
+
+.questionMark{
+  font-size: 60px;
+  color: rgb(82, 80, 80);
+  background-color: white;
+}
+
+.box > div > img{
+  margin: auto;
+  background-color: white;    
+}
+
+.score{
+    color: orange;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 2px 1px #000;  
+}
+
+.score > #score{
+    color: yellow;
+    margin-top: 10px;
+    margin-left: 45px;
+    text-decoration: underline;
+}
+
+.record{
+    height: 160px;
+    width: 220px;
+    margin-top: 265px;
+    margin-left: -20px;
+    border: 3px solid grey;
+    text-align: center;
+    box-shadow:  0 0 3px 2px grey;
+}
+
+.recordTitle{ 
+    font-size: 40px;
+    color: rgb(221, 221, 5);
+    background-color: orangered;
+    border-bottom: 2px solid grey;
+}
+
+.recordHolder{
+    font-size: 30px;
+    background-color: wheat;
+    padding: 2px;
+    color: rgb(85, 83, 83);
+}
+
+.recordScore{
+    background-color: wheat;
+}
+
+.modal{
+    background-color: blue;
+}
